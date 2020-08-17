@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="com.exerciseSpringBoot_crudBootstrap_jar_0.0.1-SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>com.exerciseSpringBoot.crudBootstrap.entities.Datamhs</class>
+    <class>com.exerciseSpringBoot.crudBootstrap.entities.Matkul</class>
+    <class>com.exerciseSpringBoot.crudBootstrap.entities.Kartustudi</class>
+    <class>com.exerciseSpringBoot.crudBootstrap.entities.Status</class>
+    <class>com.exerciseSpringBoot.crudBootstrap.entities.Course</class>
+    <class>com.exerciseSpringBoot.crudBootstrap.entities.Student</class>
+    <class>com.exerciseSpringBoot.crudBootstrap.entities.Account</class>
+    <class>com.exerciseSpringBoot.crudBootstrap.entities.Request</class>
+    <class>com.exerciseSpringBoot.crudBootstrap.entities.Employee</class>
+    <class>com.exerciseSpringBoot.crudBootstrap.entities.EmpCondition</class>
+    <class>com.exerciseSpringBoot.crudBootstrap.entities.HealtyStatus</class>
+    <class>com.exerciseSpringBoot.crudBootstrap.entities.Job</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3310/mahasiswa?zeroDateTimeBehavior=convertToNull"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value=""/>
+    </properties>
+  </persistence-unit>
+</persistence>
